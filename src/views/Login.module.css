@@ -1,0 +1,24 @@
+.loginPage {
+  background-color: black;
+  min-height: 100vh;
+  justify-content: center;
+  align-content: center;
+}
+.inputField {
+  background-color: orange;
+  width: 25%;
+  position: relative;
+  left: 38%;
+}
+.title {
+  color: yellow;
+  font-size: 5rem;
+  font-weight: bolder;
+}
+.subtitle {
+  color: yellowgreen;
+  font-size: 3rem;
+}
+button {
+  margin: 25px;
+}

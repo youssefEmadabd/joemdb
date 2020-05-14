@@ -1,0 +1,52 @@
+.searchScreen {
+  background-color: black;
+  min-height: 95vh;
+}
+.searchComponent {
+  display: inline-block;
+}
+.searchHeader {
+  margin-top: 10vh;
+  font-size: 3rem;
+  color: yellow;
+}
+.searchFieldDiv {
+  width: 100%;
+  margin-top: 10vh;
+}
+.searchButton {
+  margin-top: 5vh;
+  width: 60%;
+}
+.results {
+  display: flex;
+  flex-direction: row;
+  max-width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.result {
+  margin: 10px;
+  width: 30%;
+  height: 50vh;
+  overflow: scroll;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  border-radius: 2px;
+}
+.knownForText {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.poster {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.cardContent {
+  position: relative;
+  margin: 50px;
+  transform: scale(1.2);
+  font-weight: bold;
+  color: currentColor;
+}
